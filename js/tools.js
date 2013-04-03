@@ -62,6 +62,16 @@ var tools = {
         $('.inner-padder').height($('.inner-padder').parent().height());
         ////////////////////////
         $('.xx-content-container').height($('.in-left-col .form-horizontal').outerHeight(true) + 8);
+        ///////////////////////
+        if( $(window).width() <= 1024 ){
+            $('div.form-elements').width(280);
+            $('div.form-elements div.radio-wrapper').css('margin-left','50px');
+            $('.input-row .select-wrap').css('width','160px');
+        }
+        else if( $(window).width() > 1200){
+            $('div.form-elements div.radio-wrapper').css('margin-left','120px');
+            $('.input-row .select-wrap').css('width','50%');
+        }
     },
     // Set custom scrollbars
     setCustomScrollbars: function() {

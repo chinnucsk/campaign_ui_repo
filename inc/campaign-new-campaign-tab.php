@@ -7,7 +7,7 @@
             <label class="radio inline first-lb" for="campaign-title">Campaign Title</label>
             <input type="text" id="campaign-title"  >
         </div>
-        <div class="form-row-horizontal">
+        <div class="form-row-horizontal align-middle">
             <label class="radio inline first-lb pad-more" for="optionsRadios1">Term</label>
             <label class="radio inline">
                 <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
@@ -18,8 +18,8 @@
                 Sheduled
             </label>
         </div>
-        <div class="form-row-horizontal">
-            <label class="lab-datestart pad-more2" for="datepicker1">From</label>
+        <div class="form-row-horizontal align-middle">
+            <label class="lab-datestart" for="datepicker1">From</label>
             <input type="text" id="datepicker1" class="input-smallx">
             <input type="text" id="time-hrs" class="input-xmini space-left" /> : <input type="text" id="time-minutes" class="input-xmini" />
 
@@ -28,7 +28,7 @@
             <input type="text" id="time-hrs2" class="input-xmini space-left" /> : <input type="text" id="time-minutes2" class="input-xmini" />
         </div>
 
-        <div class="form-row-horizontal f-left">
+        <div class="form-row-horizontal f-left align-middle">
             <label class="control-label" for="ui-options">*Option</label>
             <div class="select-wrap half-width">
                 <span class="select-value-holder"></span>

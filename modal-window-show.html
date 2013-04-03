@@ -48,9 +48,7 @@
                         <nav id="main-navigation">
                             <h3>Navigation</h3>
                             <ul>
-                                <li class="active-page"><a href="index.php">Campaigns</a></li>
-                                <li><a href="plans.php">Plans</a></li>
-                                <li><a href="campaigns-ui.php">Campaigns UIs</a></li>
+                                <li><a href="#modal-content" data-toggle="modal">Modal window</a></li>
                             </ul>
                         </nav>
                     </aside>
@@ -68,8 +66,6 @@
                         <div class="clearfix"></div>
                         <ul id="top-tabs-inner" class="nav nav-tabs">
                             <li class="active"><a href="#list-plans-tab" data-toggle="tab"><span class="list-tab-icon"></span>List</a></li>
-                            <li><a href="#edit-plans-tab" data-toggle="tab"><span class="edit-tab-icon"></span>Edit</a></li>
-                            <li><a href="#add-new-plan-tab" data-toggle="tab"><span class="addnew-tab-icon"></span>Add new</a></li>
                         </ul>
                         <div class="tab-content">
                             <!-- List Plans -->
@@ -196,142 +192,7 @@
                                     </table>
                                 </div>
                             </div>
-                            <!-- Edit Campaign Plans -->
-                            <div class="tab-pane in fade" id="edit-plans-tab">
 
-                                <!-- New plan form elements -->
-                                <div class="form-holder">
-                                    <div class="form-elements">
-
-                                        <div class="form-row">
-                                            <label class="control-label" for="inputUISettings">UI setting</label>
-                                            <div class="input-row">
-                                                <div class="select-wrap">
-                                                    <span class="select-value-holder"></span>
-                                                    <select id="inputUISettings">
-                                                        <option value="Coupon">Coupon</option>
-                                                        <option value="Coupon 2">Coupon 2</option>
-                                                        <option value="Coupon 3">Coupon 3</option>
-                                                        <option value="Coupon 4">Coupon 4</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="form-row">
-                                            <div class="input-row">
-                                                <div class="radio-wrapper scroller">
-                                                    <label class="radio">
-                                                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                                                        350off5 design
-                                                    </label>
-                                                    <label class="radio">
-                                                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option1" checked>
-                                                        350off4 design
-                                                    </label>
-                                                    <label class="radio">
-                                                        <input type="radio" name="optionsRadios" id="optionsRadios3" value="option1" checked>
-                                                        350off3 design
-                                                    </label>
-                                                    <label class="radio">
-                                                        <input type="radio" name="optionsRadios" id="optionsRadios4" value="option1" checked>
-                                                        350off2 design
-                                                    </label>
-                                                    <label class="radio">
-                                                        <input type="radio" name="optionsRadios" id="optionsRadios5" value="option1" checked>
-                                                        350off4 design
-                                                    </label>
-                                                    <label class="radio">
-                                                        <input type="radio" name="optionsRadios" id="optionsRadios6" value="option1" checked>
-                                                        350off5 design
-                                                    </label>
-                                                    <label class="radio">
-                                                        <input type="radio" name="optionsRadios" id="optionsRadios7" value="option1" checked>
-                                                        350off8 design
-                                                    </label>
-                                                    <label class="radio">
-                                                        <input type="radio" name="optionsRadios" id="optionsRadios8" value="option1" checked>
-                                                        350off7 design
-                                                    </label>
-                                                    <label class="radio">
-                                                        <input type="radio" name="optionsRadios" id="optionsRadios11" value="option1" checked>
-                                                        350off5 design
-                                                    </label>
-                                                    <label class="radio">
-                                                        <input type="radio" name="optionsRadios" id="optionsRadios22" value="option1" checked>
-                                                        350off4 design
-                                                    </label>
-                                                    <label class="radio">
-                                                        <input type="radio" name="optionsRadios" id="optionsRadios33" value="option1" checked>
-                                                        350off3 design
-                                                    </label>
-                                                    <label class="radio">
-                                                        <input type="radio" name="optionsRadios" id="optionsRadios44" value="option1" checked>
-                                                        350off2 design
-                                                    </label>
-                                                    <label class="radio">
-                                                        <input type="radio" name="optionsRadios" id="optionsRadios55" value="option1" checked>
-                                                        350off4 design
-                                                    </label>
-                                                    <label class="radio">
-                                                        <input type="radio" name="optionsRadios" id="optionsRadios66" value="option1" checked>
-                                                        350off5 design
-                                                    </label>
-                                                    <label class="radio">
-                                                        <input type="radio" name="optionsRadios" id="optionsRadios77" value="option1" checked>
-                                                        350off8 design
-                                                    </label>
-                                                    <label class="radio">
-                                                        <input type="radio" name="optionsRadios" id="optionsRadios88" value="option1" checked>
-                                                        350off7 design
-                                                    </label>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="clearfix"></div>
-                                        <div class="form-row submit-btn">
-                                            <div class="input-row">
-                                                <button type="submit" class="btn btn-primary"><span class="edit-ui">Edit this UI</span></button>
-                                            </div>
-
-                                        </div>
-                                        <!-- square border element with image inside -->
-                                        <div class="image-placeholder plased-top">
-                                            <img src="images/image-placeholder.jpg" alt="placeholder" class="img-placeholder" />
-                                        </div>
-                                    </div>
-                                    <div class="form-row radioGroup">
-                                        <label class="control-label" for="q1">Query</label>
-                                        <div class="input-row">
-                                            <label class="radio">
-                                                <input type="radio" name="optionsRadios" id="q1" value="option1" checked>
-                                                far from conversion
-                                            </label>
-                                            <label class="radio">
-                                                <input type="radio" name="optionsRadios" id="q2" value="option1" checked>
-                                                near from conversion
-                                            </label>
-                                            <label class="radio">
-                                                <input type="radio" name="optionsRadios" id="q3" value="option1" checked>
-                                                new user
-                                            </label>
-                                            <label class="radio">
-                                                <input type="radio" name="optionsRadios" id="q4" value="option1" checked>
-                                                existing user
-                                            </label>
-                                        </div>
-
-                                    </div>
-
-
-                                </div><!-- form holder end -->
-                                <!-- Save Cancel buttons -->
-                                <div class="button-bar">
-                                    <button class="btn btn-primary" type="button"><span class="check-mark">Save</span></button>
-                                    <button class="btn" type="button"><span class="cancel-mark">Cancel</span></button>
-                                </div>
-                            </div>
                             <!-- Add New Plan -->
                             <div class="tab-pane in fade" id="add-new-plan-tab">
                                 <!-- List plan Template -->
@@ -343,7 +204,7 @@
                                             <label class="radio inline first-lb" for="campaign-title">Campaign Title</label>
                                             <input type="text" id="campaign-title"  >
                                         </div>
-                                        <div class="form-row-horizontal align-middle">
+                                        <div class="form-row-horizontal">
                                             <label class="radio inline first-lb pad-more" for="optionsRadios1">Term</label>
                                             <label class="radio inline">
                                                 <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
@@ -354,8 +215,8 @@
                                                 Sheduled
                                             </label>
                                         </div>
-                                        <div class="form-row-horizontal align-middle">
-                                            <label class="lab-datestart" for="datepicker1">From</label>
+                                        <div class="form-row-horizontal">
+                                            <label class="lab-datestart pad-more2" for="datepicker1">From</label>
                                             <input type="text" id="datepicker1" class="input-smallx">
                                             <input type="text" id="time-hrs" class="input-xmini space-left" /> : <input type="text" id="time-minutes" class="input-xmini" />
 
@@ -364,7 +225,7 @@
                                             <input type="text" id="time-hrs2" class="input-xmini space-left" /> : <input type="text" id="time-minutes2" class="input-xmini" />
                                         </div>
 
-                                        <div class="form-row-horizontal f-left align-middle">
+                                        <div class="form-row-horizontal f-left">
                                             <label class="control-label" for="ui-options">*Option</label>
                                             <div class="select-wrap half-width">
                                                 <span class="select-value-holder"></span>
@@ -479,5 +340,64 @@
                 <footer id="f-bottom"> </footer>
             </div><!-- row-fluid end -->
         </div>
+
+        <!-- Modal -->
+        <div id="modal-content" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="border-wrap">
+                <h3>Show '350off5Plan'</h3>
+                <div class="modal-body2 less-height">
+                    <!-- New plan form elements -->
+                    <div class="form-elements">
+
+                        <div class="form-row wrapped">
+                            <label class="control-label" for="inputUISettings">UI setting</label>
+                            <div class="select-wrap">
+                                <span class="select-value-holder"></span>
+                                <select id="inputUISettings">
+                                    <option value="Coupon">Coupon</option>
+                                    <option value="Coupon 2">Coupon 2</option>
+                                    <option value="Coupon 3">Coupon 3</option>
+                                    <option value="Coupon 4">Coupon 4</option>
+                                </select>
+                            </div>
+
+
+                        </div>
+                        <div class="form-row">
+                            <div class="input-row">
+                                <div class="radio-wrapper plain-design">
+                                    <label class="radio">
+                                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                        350off5 design
+                                    </label>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="clearfix"></div>
+                        <!-- square border element with image inside -->
+                        <div class="image-placeholder plased-top">
+                            <img src="images/image-placeholder.jpg" alt="placeholder" class="img-placeholder" />
+                        </div>
+                    </div>
+                    <div class="form-row radioGroup">
+                        <label class="control-label" for="q1">Query</label>
+                        <div class="input-row">
+                            <label class="radio">
+                                <input type="radio" name="query" id="q1" value="option1" checked>
+                                far from conversion
+                            </label>
+                        </div>
+
+                    </div>                
+                </div>
+
+            </div>
+
+            <img src="images/close-button.jpg" class="close-but" alt="close window" data-dismiss="modal" aria-hidden="true" >
+        </div>
+
+
+
     </body>
 </html>

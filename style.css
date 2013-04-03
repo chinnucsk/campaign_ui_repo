@@ -303,6 +303,7 @@ div.form-row{
     display: block;
     margin-left: 2%;
     position: relative;
+    clear: both;
 }
 div.form-row label{
     float:left;
@@ -351,6 +352,16 @@ div.form-elements div.radio-wrapper label.radio{
     width:95%;
     text-align: left !important;
 }
+div.plain-design{
+    border:none !important;
+    position: relative;
+    overflow: visible !important;
+}
+div.plain-design .even-row{
+    background: none !important;
+    border: none !important;
+}
+
 div.radio-wrapper div.mCSB_container{
     margin-right:16px !important;
 }
@@ -441,7 +452,7 @@ div.table-scroller2{
     top:5px !important;
 }
 div.in-left-col{
-    width:40%;
+    width:60%;
     float: left;
     background: #f6f6f6;
     overflow: hidden;
@@ -452,7 +463,7 @@ div.in-left-col h2{
     margin-top:0;
 }
 div.in-right-col{
-    width:60%;
+    width:40%;
     float: left;
     overflow: hidden;
 }
@@ -467,6 +478,7 @@ div.in-left-col form.form-horizontal label{
     text-align: left;
     padding-left: 10px;
 }
+
 div.in-left-col form.form-horizontal .controls{
     margin-left:0% !important;
     padding-bottom:0px !important;
@@ -485,7 +497,7 @@ div.double-select .select-wrap{
     width:66%;
 }
 .large-size{
-    width:66%;
+    width:72%;
 }
 .m-size{
     width: 35%;
@@ -500,7 +512,7 @@ div.control-buttons .btn{
 div.xx-content-container{
     border: 1px #c0c0c0 solid;
     padding: 0 5% 0 5%;
-    width:80%;
+    width:70%;
     margin:40px 0 0 10px;
     text-align: center;
     display: block;
@@ -516,14 +528,14 @@ div.xx-content-container .img-placeholder{
 }
 .form-row-horizontal .first-lb{
     font-weight: bold;
-    margin-right: 20px;
+    margin-right: 15px !important;
 }
 
 .input-xmini{
     width:20px;
 }
 .lab-datestart{
-    margin-left:5%;
+    margin-left:0;
     margin-right: 4px;
 }
 .lab-dateend{
@@ -575,9 +587,10 @@ span.label-success{
     padding-right: 16px;
 }
 #modal-content{
-    width: 800px;
+    width: 1000px;
     min-height: 500px;
     padding: 5px;
+    margin-left: -500px;
 }
 #modal-content h3{
     display: block;
@@ -594,6 +607,10 @@ div.modal-body{
 div.modal-body .form-holder{
     height:437px !important;
 }
+.less-height{
+   height:440px !important;
+   position: relative;
+}
 div.border-wrap{
     border:1px #c0c0c0 solid;
 }
@@ -603,4 +620,98 @@ div.border-wrap{
     overflow: hidden;
     clear: both;
     margin-top: 5px;
+}
+.align-middle{
+    margin-left:10%;
+}
+
+.control-label{
+    margin-right:15px !important;
+}
+.less-pad-left{
+    margin-left:10px !important;
+}
+.less-width{
+    width: 80px !important;
+}
+.edit-and-add{
+    padding: 5px !important;
+}
+.edit-and-add .ui-select{
+    width: 62% !important;
+}
+.edit-and-add .submit-btn .btn{
+    margin-left:10px;
+}
+.wider{
+    width: 57% !important;
+    right:0;
+    top:56px !important;
+}
+.edit-and-add .mCSB_container{
+    margin-right:5px !important;
+}
+.edit-and-add .control-label{
+    width: 45px !important;
+}
+.edit-and-add .radioGroup label.radio{
+    margin-bottom: 20px !important;
+}
+.edit-and-add .form-elements{
+    width: 40% !important;
+}
+.edit-and-add .plased-top{
+    width: 50% !important;
+    top: 6px !important;
+}
+.edit-and-add .less-width{
+    width: 70px !important;
+}
+.height-more{
+    height: 550px !important;
+}
+.height-more h3{
+    margin-bottom: 0 !important;
+}
+.height-more h2{
+   line-height: 1.2em;
+   padding-left: 5px;
+}
+.height-more .border-wrap, .height-more .modal-body{
+    height: 518px !important;
+}
+.height-more div.xx-content-container{
+    border: 1px #c0c0c0 solid;
+    width:430px !important;
+    height: 442px !important; 
+    margin:20px 0 0 10px;
+    text-align: center;
+    display: block;
+}
+.height-more .control-buttons{
+    float: right;
+    margin-right:24px;
+}
+.select-wrap{
+   float: left;
+   margin-bottom:15px;
+}
+.radioGroup label.radio{
+    margin-bottom: 20px !important;
+}
+.modal-body2 .in-left-col{
+    width: 50% !important;
+}
+.modal-body2 .in-right-col{
+    width: 50% !important;
+}
+.wrapped{
+    clear: both;
+    width: 400px;
+}
+.wrapped .control-label{
+    float: left;
+}
+.wrapped .select-wrap{
+    float: left;
 }
