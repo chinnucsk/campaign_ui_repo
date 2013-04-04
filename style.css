@@ -28,7 +28,7 @@ ul{ margin:0; padding:0; list-style: none; }
 #top-header ul li{ float:left; margin-right:40px; line-height:45px; }
 #top-header ul li a{ font-size:13px; display:block; }
 
-.fixed-column{ width:58px; position:relative; overflow:hidden; float:left; }
+.fixed-column{ width:58px; position:relative; float:left; }
 
 nav.left-nav{
     width:50px;
@@ -591,6 +591,10 @@ span.label-success{
     min-height: 500px;
     padding: 5px;
     margin-left: -500px;
+    z-index: 20000;
+}
+div.modal-backdrop{
+    z-index: 19000;
 }
 #modal-content h3{
     display: block;
